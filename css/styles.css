@@ -188,7 +188,7 @@ p {
   .home {
     background-color: lightcoral;
   }
-  .home__title {
+  .home .title {
     background: seagreen;
   }
 }

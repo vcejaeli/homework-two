@@ -133,12 +133,12 @@
     }
 }
 
-
+// why is this not working?
 @media (max-width: 600px) {
     .home {
         background-color: lightcoral;
 
-        &__title {
+        .title {
             background: seagreen;
         }
     }
