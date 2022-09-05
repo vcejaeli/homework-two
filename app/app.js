@@ -19,6 +19,12 @@ function initListeners() {
 
 function getWeather(location) {
     console.log("weather here " + location);
+    // fetch('https://www.weatherapi.com/api-explorer.aspx#current')
+    // .then(res => res.json())
+    // .then(data => {
+    //     weather_result.innerHTML = <p>data.location, data.current</p>
+    // });
+
     MODEL.getCurrentWeather(location);
     $("#gwInput").val("");
 }
