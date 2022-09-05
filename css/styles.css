@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.home {
+  height: 100%;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/calm-morning-horizontal.jpg);
+}
+.home .title {
+  width: 50%;
+  min-height: 150px;
+  padding: 50px 0 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+}
+.home .title__headline {
+  font-size: 50px;
+  color: goldenrod;
+}
+.home .title__paragraph {
+  font-size: 20px;
+  width: 30%;
+  height: auto;
+}
+.home .form {
+  width: 50%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.home .form__group {
+  height: 80%;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.home .form label {
+  text-align: center;
+  color: #fff;
+}
+.home .form input {
+  text-align: center;
+  height: 40px;
+  width: 60%;
+  font-size: 20px;
+  background: transparent;
+  border: 2px solid goldenrod;
+  border-radius: 2px;
+  outline: none;
+}
+.home .form input::-webkit-input-placeholder {
+  color: goldenrod;
+}
+.home .form input::-moz-placeholder {
+  color: goldenrod;
+}
+.home .form input:-ms-input-placeholder {
+  color: goldenrod;
+}
+.home .form input::-ms-input-placeholder {
+  color: goldenrod;
+}
+.home .form input::placeholder {
+  color: goldenrod;
+}
+.home .form button {
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 2px;
+  color: #000;
+  background: white;
+  padding: 5px 10px;
+  font-weight: 300;
+  font-size: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  outline: none;
+  background-color: goldenrod;
+}
+.home .btns {
+  height: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: orange;
+}
+.home .btns__one {
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #000;
+  background: white;
+  padding: 5px 10px;
+  font-weight: 300;
+  font-size: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.home .btns__two {
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #000;
+  background: white;
+  padding: 5px 10px;
+  font-weight: 300;
+  font-size: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 600px) {
+  .home {
+    background-color: lightcoral;
+  }
+  .home__title {
+    background: seagreen;
+  }
+}

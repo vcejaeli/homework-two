@@ -1,0 +1,31 @@
+{
+    "cat_info": [
+        {
+            "name": "Windsor",
+            "age": 2,
+            "favorite_food": "Chicken"
+        },
+        {
+            "name": "Oliver",
+            "age": 1,
+            "favorite_food": "Fish"
+        },
+        {
+            "name": "Kiki",
+            "age": 12,
+            "favorite_food": "Rabbits"
+        }
+    ],
+    "home_info": [
+        {
+            "place": "timbers",
+            "home_cats": 2,
+            "cat_names": "Windsor, Oliver"
+        },
+        {
+            "place": "thompson",
+            "home_cats": 1,
+            "cat_names": "Kiki"
+        }
+    ]
+}
